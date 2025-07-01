@@ -1,4 +1,4 @@
-````markdown
+
 # SensorMonitor 📡🖥️  
 *Qt 6 Widgets dashboard & MQTT sensor simulator*
 
