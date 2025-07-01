@@ -1,5 +1,5 @@
 
-# SensorMonitor 📡🖥️  
+# SensorMonitor-MQTT 📡🖥️  
 *Qt 6 Widgets dashboard & MQTT sensor simulator*
 
 ## Overview
@@ -9,10 +9,6 @@ SensorMonitor is a small **desktop laboratory** showing how to :
 * publish these values to a **Mosquitto** broker (`sensors/#` topics),
 * subscribe and display them live in a **Qt 6 Widgets** GUI,
 * stay 100 % C++11 – no Qt Mqtt module, only `libmosquittopp`.
-
-<p align="center">
-  <img src="docs/screenshots/gui.png" width="480" alt="GUI screenshot">
-</p>
 
 ---
 
@@ -53,8 +49,8 @@ build/      (ignored) out-of-tree build
 
 ```bash
 # Clone & build
-git clone https://github.com/yourname/SensorMonitor.git
-cd SensorMonitor
+git clone https://github.com/yourname/SensorMonitor-MQTT.git
+cd SensorMonitor-MQTT
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release      # -G Ninja if you prefer
 cmake --build . -j$(nproc)
